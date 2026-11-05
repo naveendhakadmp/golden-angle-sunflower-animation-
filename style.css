@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #100b12;
+    color: white;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 750px;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #fff2cf;
+}
+
+.subtitle {
+    color: #c69b59;
+    font-size: 12px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+
+.flower-area {
+    width: 100%;
+    max-width: 480px;
+    margin: 10px auto;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+}
+
+#angle {
+    font-size: 30px;
+    color: #ffd76a;
+}
+
+#stage {
+    font-size: 16px;
+    color: #e7b65a;
+    letter-spacing: 2px;
+}
+
+.degree-control {
+    margin: 25px auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #ffd76a;
+}
+
+.degree-control label {
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.degree-control input {
+    width: 100%;
+    accent-color: #ffc928;
+    cursor: pointer;
+}
+
+#degreeValue {
+    font-size: 25px;
+    color: white;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 22px;
+    margin: 5px;
+    background: transparent;
+    border: 1px solid #bd9654;
+    color: #f7d99b;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #bd9654;
+    color: #100b12;
+}
+
+.footer {
+    margin-top: 25px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #8e795c;
+}
+
+@media(max-width: 500px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    #angle {
+        font-size: 24px;
+    }
+}
